@@ -85,7 +85,7 @@ const Setting = ({ setIsSetting, setShowModal }) => {
                     <li><span>뽑기 개수 와 상품 등수 및 당첨 개수를 커스텀 할 수 있습니다.</span></li>
                     <li><span>뽑기 개수는 최대 500개까지 생성할 수 있습니다.</span></li>
                     <li><span>상품 등수는 최대 10등까지 생성할 수 있습니다.</span></li>
-                    <li><span>뽑기 개수와 당첨 개수가 일치하지 않으면 나머지는 자동으로 '꽝'으로 표시됩니다.</span></li>
+                    <li><span>뽑기 개수와 당첨 개수가 일치하지 않으면 나머지는 자동으로  &apos;꽝 &apos;으로 표시됩니다.</span></li>
                 </ul>
             </div>
             <div className={styles.custom_set}>
