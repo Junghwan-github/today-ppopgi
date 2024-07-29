@@ -44,12 +44,13 @@ export const metadata = {
     type: "website",
   },
   verification: {
-    google: "W6IEH3V3YUxR7LOSRk6AkvamhPPViElobta_aRKMgh4",
+    google: "OhZfBv2KzFrdoCDuzvbaQknwgaV0M8cQJEp41-vbstA",
     other: {
-      "naver-site-verification": "27d7050d868ef37a5af94a294cb84217fc22ae9f",
+      "naver-site-verification": "1b1df75b5842b94bc6787609b43087beb5f57de3",
     },
   },
 };
+
 
 export default function RootLayout({ children }) {
 
