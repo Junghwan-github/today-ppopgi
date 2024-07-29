@@ -1,0 +1,115 @@
+.setting {
+    padding: 50px;
+    border-radius: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom_desc {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #eee;
+}
+
+.custom_desc>h2 {
+    text-align: center;
+    padding: 0 0 15px 0;
+    font-size: 1.1rem;
+}
+
+.custom_desc>ul {
+    list-style: inside;
+}
+
+
+.custom_desc>ul>li>span {
+    font-size: 0.88rem;
+}
+
+.custom_set,
+.prize_set {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.custom_set>div,
+.prize_set>div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.custom_set>div>span,
+.prize_set>div>span {
+    color: #777;
+}
+
+.custom_set>div>input,
+.prize_set>div>input {
+    width: 120px;
+    margin-left: 5px;
+    padding: 5px 5px;
+    font-weight: 700;
+    color: var(--base-color);
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-family: var(--base-font);
+    font-size: 1rem;
+}
+
+.prize_set>div>input {
+
+    margin: 3px 10px;
+}
+
+.custom_set>div>input::placeholder {
+    color: #ccc;
+    font-weight: 400;
+}
+
+.custom_set>div>input:focus,
+.prize_set>div>input:focus {
+    outline: none;
+}
+
+.custom_set>p {
+    font-size: 0.8rem;
+    margin: 5px 0 10px 0;
+    color: #ff000f;
+    font-style: italic;
+}
+
+.create_btn {
+    margin-top: 25px;
+    font-family: var(--base-font);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 15px 50px;
+    background-color: #9795f0;
+    color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+
+    .setting {
+        width: 85%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .custom_set>div>input,
+    .prize_set>div>input {
+        padding: 3px 3px;
+    }
+
+    .prize_set>div>input {
+
+        margin: 2px 5px;
+    }
+
+
+}

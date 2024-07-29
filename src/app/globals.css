@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@font-face {
+  font-family: 'JalnanGothic';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+:root {
+ --max-width: 992px;
+ --title-font: 'JalnanGothic';
+ --base-font: 'Noto Sans KR', sans-serif;
+ --base-color : #333;
+}
+
+/* 초기화 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: var(--base-font);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+header {
+  height: 0;
+}
+
+footer {
+  height: 50px;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+
+/* 기본셋팅 */
+
+#ppopgi__ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.ppopgi__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad_area {
+  margin: 0 100px;
+  width: 160px;
+  height: 600px;
+  background-color: #eee;
+}
+
+/* 모바일 */
+
+@media screen and (max-width: 576px) {
+
+  html,
+  body {
+    font-size: 12px;
+  }
+
+  #ppopgi__ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  .ppopgi__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ad_area {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin: 0 20px;
+    z-index: 99999;
+  }
+
+  .ad_area:nth-child(1) {
+    top: 0;
+  }
+
+  .ad_area:nth-child(3) {
+    bottom: 0;
+  }
+  
+  footer {
+    margin-bottom: 50px;
+  }
+
+} 
