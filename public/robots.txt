@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://todayppopgi.vercel.app
+
+# Sitemaps
+Sitemap: https://todayppopgi.vercel.app/sitemap.xml
