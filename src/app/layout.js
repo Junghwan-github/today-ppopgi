@@ -64,19 +64,31 @@ export default function RootLayout({ children }) {
             <aside className="ad_area">
               <KakaoAdfit
                 insId="root_left"
-                className="kakao_adfit" 
+                className="kakao_adfit"
                 unit="DAN-sMQ7bKKIXN6ogKWh"
                 width="160"
                 height="600" />
+              <KakaoAdfit
+                insId="root_left_mobile"
+                className="kakao_adfit mobile"
+                unit="DAN-nStT06J5ZrwnZ2de"
+                width="320"
+                height="50" />
             </aside>
             {children}
             <aside className="ad_area">
-            <KakaoAdfit
-                insId="root_left"
-                className="kakao_adfit" 
+              <KakaoAdfit
+                insId="root_right"
+                className="kakao_adfit"
                 unit="DAN-jZ7lPN4K4ywNDOvb"
                 width="160"
                 height="600" />
+              <KakaoAdfit
+                insId="root_right_mobile"
+                className="kakao_adfit mobile"
+                unit="DAN-b0u91WsfEiYjYTrM"
+                width="320"
+                height="50" />
             </aside>
           </div>
           <Footer />
