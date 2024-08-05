@@ -10,7 +10,7 @@ export const metadata = {
     { name: "PARK JUNG HWAN", url: "https://github.com/Junghwan-github/" },
   ],
   title: "오늘의 뽑기",
-  description: "오늘의 뽑기는 추억의 뽑기판을 모티브로 개발되어, 친구들과 모임에서 즐겁게 사용할 수 있으며 커스텀이 가능합니다.",
+  description: "오늘의 뽑기는 추억의 뽑기, 종이 뽑기, 상품 뽑기 를 모티브로 개발되어, 누구나 쉽게 무료로 사용할 수 있으며 커스텀이 가능합니다.",
   keywords: [
     "오늘의 뽑기",
     "추억의 뽑기",
@@ -22,6 +22,8 @@ export const metadata = {
     "사다리 타기",
     "사다리 게임",
     "복불복 게임",
+    "종이뽑기",
+    "상품뽑기",
   ],
   robots: "index, follow",
   openGraph: {

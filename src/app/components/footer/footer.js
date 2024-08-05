@@ -22,7 +22,7 @@ const Footer = () => {
           Developer <span onClick={handleClickShowModal}>Contact</span>
         </p>
         <p className={style.copyright}>
-          Copyright 2024. <span>PARK JUNGHWAN.</span>
+          Copyright 2024. <span>Park Junghwan.</span>
         </p>
       </div>
       <Modal show={showModal}>
@@ -35,7 +35,7 @@ const Footer = () => {
             <h2>Developer Contact</h2>
             <ul>
               <li>
-                <p>Name : PARK JUNG HWAN</p>
+                <p>Name : Park Junghwan</p>
               </li>
               <li>
                 <p>
