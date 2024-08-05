@@ -25,7 +25,7 @@ const KakaoAdfit = ({ unit, width, height, className, insId }) => {
       <ins
         id={insId}
         className="kakao_ad_area"
-        style={{ display: "none" }}
+        style={{ display: "block" }}
         data-ad-unit={unit}
         data-ad-width={width}
         data-ad-height={height}
