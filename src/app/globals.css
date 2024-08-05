@@ -79,6 +79,14 @@ button {
   background-color: #eee;
 }
 
+.kakao_adfit {
+  width: 100%;
+}
+
+.kakao_adfit.mobile {
+  display: none;
+}
+
 /* 모바일 */
 
 @media screen and (max-width: 576px) {
@@ -111,6 +119,14 @@ button {
     height: 50px;
     margin: 0 20px;
     z-index: 99999;
+  }
+
+  .kakao_adfit {
+    display: none;
+  }
+
+  .kakao_adfit.mobile {
+    display: block;
   }
 
   .ad_area:nth-child(1) {
