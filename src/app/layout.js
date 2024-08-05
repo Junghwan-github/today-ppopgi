@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
+import KakaoAdfit from "./components/kakaoAdfit/kakao";
 
 export const metadata = {
   generator: "Next.js",
@@ -58,11 +59,25 @@ export default function RootLayout({ children }) {
     <html lang="ko">
       <body>
         <div id="ppopgi__">
-          <Header  />
+          <Header />
           <div className="ppopgi__container">
-            <aside className="ad_area"></aside>
+            <aside className="ad_area">
+              <KakaoAdfit
+                insId="root_left"
+                className="kakao_adfit" 
+                unit="DAN-sMQ7bKKIXN6ogKWh"
+                width="160"
+                height="600" />
+            </aside>
             {children}
-            <aside className="ad_area"></aside>
+            <aside className="ad_area">
+            <KakaoAdfit
+                insId="root_left"
+                className="kakao_adfit" 
+                unit="DAN-jZ7lPN4K4ywNDOvb"
+                width="160"
+                height="600" />
+            </aside>
           </div>
           <Footer />
         </div>
